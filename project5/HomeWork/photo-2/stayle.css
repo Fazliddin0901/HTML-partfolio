@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(218, 233, 187);
+}
+.box {
+  background-color: white;
+  position: relative;
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  top: 50px;
+  border-radius: 15px;
+}
+h1 {
+  position: absolute;
+  top: 70px;
+  right: 170px;
+  color: rgb(0, 114, 0);
+  left: 800px;
+}
+.email {
+  position: absolute;
+  top: 150px;
+  right: 80px;
+  left: 800px;
+}
+input {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 114, 0);
+ 
+}
+.password {
+  position: absolute;
+  top: 220px;
+  right: 80px;
+}
+.check {
+  position: absolute;
+  top: 270px;
+  right: 257px;
+}
+#check {
+  width: auto;
+}
+a{
+  text-decoration: none;
+  color: rgb(170, 53, 53);
+}
+#forgot {
+  position: absolute;
+  top: 270px;
+  right: 80px;
+  
+}
+#password {
+  opacity: 0.3;
+}
+label {
+  text-decoration: 16px;
+}
+.sign {
+  position: absolute;
+  background-color: rgb(0, 114, 0);
+  color: white;
+  top: 310px;
+  right: 80px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.or {
+  position: absolute;
+  top: 360px;
+  right: 225px;
+  color: rgb(0, 114, 0);
+}
+.one {
+  width: 80px;
+  position: absolute;
+  top: 370px;
+  right: 245px;
+  color: rgb(0, 114, 0);
+}
+.two {
+  width: 80px;
+  position: absolute;
+  top: 370px;
+  right: 135px;
+  color: rgb(0, 114, 0);
+}
+.Google {
+  position: absolute;
+  background-color: white;
+  color: rgb(0, 114, 0);
+  top: 390px;
+  right: 80px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid rgb(0, 114, 0);
+  border-radius: 10px;
+}
+.account{
+  position: absolute;
+  top: 440px;
+  right:125px ;
+  color: rgb(0, 114, 0;
+
+}

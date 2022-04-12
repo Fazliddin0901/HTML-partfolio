@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url(img/slider.jpg);
+  height: 700px;
+  width: 100%;
+}
+h3 {
+  margin-right: 400px;
+  font-size: 26px;
+}
+.navbar {
+  padding: 20px 250px;
+}
+a {
+  text-decoration: none;
+}
+.navbar a {
+  margin: auto 15px;
+}
+h3,
+h1,
+header p,
+.navbar a {
+  color: #fff;
+}
+.navbar span {
+  padding: 3px;
+}
+nav a:hover {
+  background-color: #c69735;
+  padding: 2px;
+}
+.title {
+  margin: 280px 0 0 640px;
+}
+input {
+  display: block;
+}
+h1 {
+  color: #c69735;
+  font-size: 48px;
+}
+.title p {
+  font-size: 24px;
+}
+h2,
+.bio,
+.box {
+  text-align: center;
+}
+h2 {
+  margin: 30px;
+  font-size: 48px;
+  color: #743333;
+}
+.about img,
+.bio,
+h3,
+.box,
+.work,
+.contact,
+.message {
+  display: inline-block;
+}
+.bio {
+  width: 440px;
+  margin-left: 40px;
+}
+.about {
+  width: 60%;
+  background-color: #ffeeb8;
+  margin: 0 auto;
+  padding: 30px;
+}
+.about img {
+  width: 350px;
+}
+.about button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.navbar span,
+.about button {
+  background-color: #ffc814;
+}
+.bio h4 {
+  margin-bottom: 10px;
+}
+.box,
+.work {
+  width: 27%;
+  margin: 20px 0 0 20px;
+  background-color: #fff7dc;
+  padding: 15px;
+}
+.boxes,
+.works {
+  width: 1000px;
+  margin: 10px auto;
+}
+.box img {
+  width: 100px;
+  height: 100px;
+}
+h5 {
+  font-size: 20px;
+  margin: 5px auto;
+}
+.mini_nav {
+  text-align: center;
+  margin: -20px 0 40px 0;
+}
+.mini_nav a {
+  margin: 15px;
+  font-size: 20px;
+  color: #000;
+}
+.work img {
+  width: 100%;
+  height: 100%;
+}
+.contact img {
+  width: 20px;
+  height: 20px;
+  padding-right: 40px;
+  margin-left: 40px;
+}
+.contacts {
+  width: 1000px;
+  margin: 20px auto;
+}
+.message {
+  margin-left: 100px;
+}
+.message,
+.contact {
+  border: 2px solid #000;
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+}
+input {
+  height: 30px;
+  margin: 10px auto;
+  width: 80%;
+  background-color: #ffeeb8;
+  border: none;
+}
+input::placeholder {
+  color: #743333;
+  padding-left: 10px;
+}
+.message button {
+  background-color: #ffc814;
+  margin-left: 140px;
+  border: none;
+  padding: 5px;
+  color: #743333;
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #ffc814;
+}
+footer p {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+.color {
+  color: #743333;
+}

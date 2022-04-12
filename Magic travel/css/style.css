@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+header {
+  padding: 15px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  /* position: fixed; */
+}
+
+.header2 a {
+  margin: 0 15px;
+  color: #f8f9fa;
+  font-size: 22px;
+}
+.header a {
+  margin: 0 15px;
+  color: #f8f9fa;
+  font-size: 22px;
+}
+h1 span {
+  color: #ffa500;
+}
+.header1 {
+  color: #f8f9fa;
+}
+
+/* banner section */
+.banner-section {
+  width: 100%;
+  padding: 5 0px;
+}
+#myVideo {
+  /* position: fixed;
+  right: 0;
+  bottom: 0; */
+  min-width: 100%;
+  min-height: 80%;
+}
+.banner-section h1 {
+  font-size: 44px;
+  letter-spacing: 3px;
+  color: white;
+}
+.banner-section p {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 20px 100px;
+  color: #f8f9fa;
+}
+.circle {
+  position: relative;
+  left: 230px;
+  top: 20px;
+  border-radius: 10px;
+  width: 150px;
+  background-color: #333333;
+  height: 10px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+}
+.circle div:hover {
+  background-color: #ffa500;
+}
+.button {
+  margin: 10px 250px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #ffa500;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #f8f9fa;
+}
+.button:hover {
+  color: #e9ecef;
+  background-color: #ffa500;
+}
+h1 {
+  color: white;
+}
+.banner {
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 400px;
+}
+/* book section */
+.book-section {
+  width: 80%;
+  margin: 50px 150px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.book-section1 {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.book-section1 form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 20px;
+  gap: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+.book-section h4,
+.book-section input {
+  color: #333333;
+  font-size: 20px;
+}
+.book-section1 form input {
+  height: 40px;
+}
+.book-section1 img {
+  width: 50%;
+}
+.sarlavha {
+  text-transform: uppercase;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  column-gap: 24px;
+  align-items: center;
+  font-size: 52px;
+  color: #ffa500;
+}
+.sarlavha p {
+  background-color: #ffedd5;
+  padding: 0 10px;
+}
+.aa {
+  margin: 0;
+}
+/*packeges section */
+.packeges-section {
+  padding: 0px 150px;
+}
+.packeges1 {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+}
+.packeges-card {
+  padding: 15px 15px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+}
+.packeges-card img {
+  width: 95%;
+  margin-left: 10px;
+  border-radius: 10px;
+  transform: scale(1.125);
+}
+.packeges-card i {
+  font-size: 20px;
+  color: #ffa500;
+}
+.packeges-card h4 {
+  font-size: 20px;
+  color: #333333;
+}
+.packeges-card p {
+  color: #333333;
+  font-size: 20px;
+  line-height: 1.8;
+}
+p del {
+  font-size: 14px;
+  font-style: unset;
+}
+/* services section */
+.services-section {
+  padding: 0 150px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+}
+.services-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.services-card1 {
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); */
+  padding: 30px;
+  text-align: center;
+}
+.services-card1 i {
+  margin-bottom: 20px;
+  font-size: 44px;
+  color: #ffa500;
+}
+.services-card1 h2 {
+  color: #333333;
+  text-transform: capitalize;
+}
+.services-card1 p {
+  margin-top: 20px;
+  line-height: 1.8;
+}
+.galary-section {
+  margin: 100px auto;
+  width: 80%;
+}
+.galary-card {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.galary-card1 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+.galary-card1 img {
+  width: 95%;
+  height: 95%;
+  margin: 8px 10px;
+}
+/*  review  section */
+.review-section {
+  width: 80%;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.review-card {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #ffa500;
+}
+.review-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.review-card h3 {
+  color: #333333;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.review-card p {
+  font-size: 18px;
+  color: #868e96;
+  text-align: center;
+}
+/* contact section */
+.contact-section {
+  width: 80%;
+  margin: 100px auto;
+}
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  padding: 30px;
+  margin-top: 50px;
+}
+.contact-card img {
+  width: 40%;
+}
+.contact-form {
+  width: 700px;
+  display: grid;
+  grid-template-columns: 4 0% 40%;
+  grid-template-rows: 0.3fr 0.3fr 1.5fr 0.5fr;
+  gap: 30px 30px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  border-radius: 10px;
+}
+.contact-form textarea {
+  resize: none;
+  grid-column: 1/3;
+  border: none;
+  background-color: #f1f3f5;
+  font-size: 18px;
+}
+.contact-form input {
+  height: 60px;
+  border: none;
+  background-color: #f1f3f5;
+  font-size: 18px;
+}
+/* hamkorlar */
+.hamkorlar {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* footer section */
+.footer-section {
+  margin-top: 100px;
+  padding: 40px 150px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  color: #f1f3f5;
+}
+.footer1 {
+  width: 30%;
+}
+.footer2,
+.footer3,
+.footer4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer3 a {
+  color: #f1f3f5;
+}

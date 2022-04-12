@@ -1,0 +1,156 @@
+body {
+  position: relative;
+}
+h1 {
+  position: absolute;
+  left: 250px;
+  color: rgb(70, 68, 68);
+}
+.quantity {
+  position: absolute;
+  top: 90px;
+  left: 250px;
+}
+.Quantity {
+  position: absolute;
+  top: 80px;
+  left: 490px;
+  width: 100px;
+  height: 30px;
+}
+.delivery {
+  position: absolute;
+  top: 160px;
+  left: 250px;
+  width: 100px;
+  height: 30px;
+}
+.date {
+  position: absolute;
+  top: 150px;
+  left: 490px;
+  width: 200px;
+  height: 30px;
+}
+.address {
+  position: absolute;
+  top: 220px;
+  left: 250px;
+  width: 1000px;
+  height: 30px;
+}
+.street {
+  position: absolute;
+  top: 220px;
+  left: 490px;
+  width: 600px;
+  height: 30px;
+}
+.Line2 {
+  position: absolute;
+  top: 290px;
+  left: 490px;
+  width: 600px;
+  height: 30px;
+}
+.сity {
+  position: absolute;
+  top: 360px;
+  left: 490px;
+  width: 280px;
+  height: 30px;
+}
+.region {
+  position: absolute;
+  top: 360px;
+  left: 810px;
+  width: 280px;
+  height: 30px;
+}
+.postal {
+  position: absolute;
+  top: 430px;
+  left: 490px;
+  width: 280px;
+  height: 30px;
+}
+.country {
+  position: absolute;
+  top: 430px;
+  left: 810px;
+  width: 290px;
+  height: 36px;
+}
+.name {
+  position: absolute;
+  top: 510px;
+  left: 250px;
+  width: 280px;
+  height: 30px;
+}
+.first {
+  position: absolute;
+  top: 500px;
+  left: 490px;
+  width: 340px;
+  height: 30px;
+}
+.last {
+  position: absolute;
+  top: 500px;
+  left: 890px;
+  width: 200px;
+  height: 30px;
+}
+.phone {
+  position: absolute;
+  top: 580px;
+  left: 250px;
+  width: 280px;
+  height: 30px;
+}
+.number {
+  position: absolute;
+  top: 570px;
+  left: 490px;
+  width: 340px;
+  height: 30px;
+}
+.Email {
+  position: absolute;
+  top: 650px;
+  left: 250px;
+  width: 280px;
+  height: 30px;
+}
+.email {
+  position: absolute;
+  top: 640px;
+  left: 490px;
+  width: 340px;
+  height: 30px;
+}
+.I {
+  position: absolute;
+  top: 735px;
+  left: 520px;
+  width: 280px;
+  height: 30px;
+}
+.checkbox {
+  position: absolute;
+  top: 730px;
+  left: 395px;
+  width: 200px;
+  height: 20px;
+}
+.order {
+  position: absolute;
+  top: 800px;
+  left: 600px;
+  width: 230px;
+  height: 50px;
+  background-color: rgb(70, 68, 68);
+  color: white;
+  font-size: 18px;
+}

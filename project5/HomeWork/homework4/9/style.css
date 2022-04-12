@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px 150px;
+}
+nav h1,
+nav img,
+nav p,
+.circle,
+.small_title h6 {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+nav h1 {
+  margin-left: 500px;
+  font-size: 40px;
+  margin-right: 230px;
+}
+nav button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  margin-left: 20px;
+  color: #fff;
+}
+nav button,
+.circle {
+  background-color: #319fea;
+}
+nav p {
+  color: #319fea;
+}
+.menu a {
+  color: #000;
+  font-size: 18px;
+  margin: 0 20px;
+}
+.menu {
+  margin: 20px 0;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 2px solid #319fea;
+  border-bottom: 2px solid #319fea;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.small_title h6 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.small_title {
+  margin: 5px 0;
+}
+.house {
+  width: 95%;
+  height: 400px;
+  margin: 20px 0;
+}
+.news {
+  width: 70%;
+}
+.slider h2 {
+  font-size: 36px;
+  width: 80%;
+  margin: 10px 0;
+}
+.slider p {
+  width: 90%;
+}
+.slider p,
+.money p {
+  font-size: 18px;
+}
+.date p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #707070;
+}
+.name {
+  font-weight: bold;
+}
+.news_row1 img {
+  width: 380px;
+  height: 240px;
+}
+.news_row1 h3 {
+  font-size: 20px;
+}
+.news_row1 {
+  border-top: 1px solid #707070;
+  width: 95%;
+  padding: 20px 0;
+}
+.container,
+.news_row1,
+.news_row3,
+.hot_spoots {
+  display: flex;
+}
+.nfl {
+  margin-right: 50px;
+}
+.money h3 {
+  margin: 10px 0;
+}
+.money {
+  width: 50%;
+  margin-right: 50px;
+}
+.top_headlines h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+.top_headlines {
+  margin-top: 40px;
+}
+.hdln_box h4 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.hdln_box {
+  padding: 20px 0;
+  border-top: 1px solid #707070;
+}
+.top_headlines h5 {
+  font-size: 26px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #319fea;
+}
+.top_headlines {
+  padding-left: 10px;
+  border-left: 1px solid #707070;
+}
+.ht_sp img {
+  width: 100px;
+  height: 70px;
+}
+.news_row3 h5,
+.us p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.news_row3 {
+  border-top: 1px solid #707070;
+  width: 95%;
+  padding-top: 15px;
+}
+.us {
+  width: 40%;
+  border-right: 1px solid #707070;
+}
+.ht_sp {
+  margin: 0 20px;
+}

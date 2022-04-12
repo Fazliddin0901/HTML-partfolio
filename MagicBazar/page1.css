@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(24, 84, 179);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 200px;
+  align-items: center;
+}
+.magicshop {
+  color: white;
+}
+.search input {
+  width: 390px;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+  padding-left: 20px;
+  margin-left: -100px;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+.icons img {
+  width: 20px;
+  height: 20px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 80px 200px;
+  gap: 400px;
+}
+.homeimg1 {
+  width: 70%;
+}
+.homeimg1 img {
+  width: 80%;
+  height: 450px;
+}
+.chegirma {
+  width: 50%;
+  margin-top: 150px;
+  margin-left: -400px;
+}
+.chegirma a {
+  text-decoration: none;
+}
+.chegirma h3 {
+  font-family: sans-serif;
+  margin: 10px 0;
+  font-size: 24px;
+}
+.shop {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(0, 153, 255);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.container {
+  background-color: #f1f1f1;
+  padding: 150px 200px;
+}
+.birinchi {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+}
+.rasm {
+  width: 33%;
+  background-size: cover;
+  height: 200px;
+  border: 2px solid;
+  border-radius: 5px;
+  position: relative;
+}
+.rasm1 {
+  background-image: url(images/banner-1.jpg);
+}
+.rasm2 {
+  background-image: url(images/banner-2.jpg);
+}
+.rasm3 {
+  background-image: url(images/banner-3.jpg);
+}
+.egri_yozuv {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 90px;
+  left: 20px;
+}
+.egri_yozuv a {
+  text-decoration: none;
+}
+.egri_yozuv h4 {
+  margin-top: 8px;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+h2 span {
+  color: rgb(63, 185, 233);
+}
+.ikkinchi {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-left: 20px;
+  gap: 20px;
+}
+.rasm1_1 {
+  display: flex;
+  background-color: white;
+  border: 2px solid;
+  gap: 25px;
+}
+.rasm1_1 img {
+  width: 50%;
+}
+.egri_yozuv2 {
+  margin-top: 60px;
+}
+.egri_yozuv2 a {
+  text-decoration: none;
+}
+footer {
+  background-color: gray;
+  width: 100%;
+  padding: 20px 0;
+}
+footer h3 {
+  color: white;
+  font-size: 28px;
+}
+.container-footer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social {
+  display: flex;
+  height: 25px;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+}
+.yakun {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 150px;
+}
+.yakun p span {
+  color: rgb(0, 126, 243);
+}

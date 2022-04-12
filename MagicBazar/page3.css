@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(226, 226, 226);
+}
+header {
+  background-color: rgb(24, 84, 179);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 200px;
+  align-items: center;
+}
+.magicshop {
+  color: white;
+}
+.search input {
+  width: 390px;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+  padding-left: 20px;
+  margin-left: -100px;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+.icons img {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  background-color: gray;
+  width: 100%;
+  padding: 20px 0;
+}
+footer h3 {
+  color: white;
+  font-size: 28px;
+}
+.MagicSoft {
+  width: 330px;
+  margin-top: 20px;
+  margin-left: 389px;
+  display: inline-block;
+}
+.davom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 290px;
+  background-color: white;
+  height: 180px;
+  padding: 15px;
+  margin: 0 720px;
+  margin-top: -230px;
+}
+.our {
+  margin-top: 5px;
+}
+.lorem30 {
+  font-size: 13px;
+}
+.lorem20 {
+  font-size: 13px;
+}
+.read {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(16, 113, 192);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.hoverlar {
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ansver {
+  color: rgb(16, 113, 192);
+}
+.hover1 {
+  width: 450px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  border-radius: 5px;
+}
+
+.client {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.client span {
+  color: rgb(16, 113, 192);
+}
+.Aftor {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+.first {
+  text-align: center;
+  font-size: 14px;
+}
+.pic_1 {
+  width: 100px;
+  border-radius: 50%;
+}
+.container-footer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social {
+  display: flex;
+  height: 25px;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+}
+.yakun {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 150px;
+}
+.yakun p span {
+  color: rgb(0, 126, 243);
+}

@@ -1,0 +1,37 @@
+p {
+  font-style: oblique;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-weight: 200px;
+  font-family: sans-serif;
+}
+.mac {
+  width: 50%;
+  height: 500px;
+  background-color: yellow;
+  text-align: center;
+  margin: 0 auto;
+  border: solid;
+  cursor: pointer;
+}
+body :last-child {
+  color: red;
+}
+a {
+  text-decoration: none;
+}
+button:hover {
+  color: tomato;
+  background-color: green;
+}
+button:active {
+  color: initial;
+}
+h2 {
+  border: 2px solid red;
+  padding: 0;
+}
+input {
+  margin-bottom: 400px;
+}

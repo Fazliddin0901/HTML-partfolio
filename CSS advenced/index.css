@@ -1,0 +1,12 @@
+.container {
+  width: 1366px;
+}
+h4 {
+  inline-size: 300px;
+}
+.magic {
+  color: black;
+}
+.build {
+  color: rgb(160, 108, 25);
+}

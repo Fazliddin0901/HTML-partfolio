@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(56, 41, 124);
+  width: 80%;
+  margin-left: 160px;
+  margin-top: 70px;
+}
+div {
+  text-align: center;
+  display: grid;
+}
+/*h1 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 50px;
+  left: 600px;
+}
+.name {
+  position: absolute;
+  top: 180px;
+  left: 450px;
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: rgb(56, 41, 124);
+  color: white;
+  font-size: 20px;
+}
+input::placeholder {
+  font-size: 20px;
+  color: white;
+}
+*/
+h1 {
+  color: white;
+}
+.name {
+  width: 600px;
+  margin: 0 auto;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: rgb(56, 41, 124);
+  margin-bottom: 40px;
+  color: white;
+  font-size: 15px;
+}
+input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+.email {
+  width: 600px;
+  margin: 0 auto;
+  height: 50px;
+  border-color: white;
+  background-color: rgb(56, 41, 124);
+  margin-bottom: 30px;
+  color: white;
+  font-size: 15px;
+}
+.address {
+  width: 600px;
+  margin: 0 auto;
+  height: 50px;
+  border-color: white;
+  background-color: rgb(56, 41, 124);
+  margin-bottom: 30px;
+  color: white;
+  font-size: 15px;
+}
+textarea {
+  width: 600px;
+  margin: 0 auto;
+  height: 200px;
+  border-color: white;
+  background-color: rgb(56, 41, 124);
+  margin-bottom: 30px;
+  color: white;
+  font-size: 15px;
+}
+textarea::placeholder {
+  color: white;
+  font-size: 20px;
+}
+button {
+  width: 600px;
+  margin: 0 auto;
+  height: 50px;
+
+  background-color: aqua;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 20px;
+}

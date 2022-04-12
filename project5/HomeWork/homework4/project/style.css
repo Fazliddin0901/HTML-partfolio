@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  display: flex;
+}
+.menu {
+  width: 500px;
+  background-color: #181c19;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.menu img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fdcb2e;
+  margin-top: 70px;
+}
+.menu h2 {
+  font-size: 36px;
+  margin: 6px auto;
+}
+.menu p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.menu a {
+  display: block;
+}
+.menu button {
+  width: 300px;
+  border: none;
+  height: 50px;
+  margin: 8px auto;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: #393937;
+  color: #fff;
+}
+/* menu finished */
+.bio,
+.about_me,
+.contact_me,
+.education,
+.portfolio {
+  background-color: #0c0f0c;
+  color: #fff;
+  width: 100%;
+}
+.bio {
+  padding: 200px 0 0 150px;
+}
+.bio p {
+  width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.bio h1 {
+  margin: 20px 0;
+  font-size: 60px;
+}
+.name {
+  color: #fdcb2e;
+}
+.bio h2 {
+  font-size: 30px;
+}
+.bio button,
+.cv button,
+.message button {
+  width: 200px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: #393937;
+  color: #fff;
+}
+/* Home Finished */
+/* About start */
+.about,
+.column,
+.contact {
+  display: flex;
+}
+.about_me,
+.contact_me {
+  padding: 0 100px 0 100px;
+}
+.about_me h1,
+.contact_me h1,
+.education h1,
+.portfolio h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 15px 0;
+}
+.about {
+  margin-top: 20px;
+}
+.cv p {
+  font-size: 26px;
+  margin: 20px 0;
+}
+.box {
+  text-align: center;
+  margin: 10px;
+  padding: 30px;
+  background-color: #393937;
+  width: 200px;
+}
+.box p {
+  width: 100px;
+  margin: 10px auto;
+  font-size: 26px;
+}
+.experiance {
+  margin-left: 160px;
+}
+.box span {
+  font-size: 32px;
+}
+/* About Finish */
+.contact {
+  margin-top: 50px;
+}
+.message input {
+  display: block;
+  width: 500px;
+  border: none;
+  height: 50px;
+  margin: 15px 0;
+  background-color: #151915;
+}
+.info h3 {
+  margin: 100px 0 30px 0;
+  font-size: 36px;
+}
+.info p {
+  font-size: 24px;
+  margin: 15px 0;
+}
+.message {
+  margin: 40px 0 0 150px;
+}
+.message input::placeholder {
+  font-size: 20px;
+  padding-left: 15px;
+}
+.message input:nth-child(4) {
+  height: 150px;
+}
+/* Contact Finished */
+.education {
+  padding: 0 50px;
+}
+.educate {
+  display: flex;
+  margin: 30px 0;
+}
+.content button {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: #393937;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.content {
+  position: relative;
+  padding: 0 30px;
+  border-left: 2px solid #fff;
+  margin: 30px;
+}
+.circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fdcb2e;
+  border-radius: 50%;
+  margin-left: -50px;
+  text-align: center;
+}
+.content p {
+  width: 230px;
+  font-size: 18px;
+}
+.content h3 {
+  margin: 15px 0;
+  font-size: 22px;
+}
+.master {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  font-size: 20px;
+}
+/* Education Started */
+.works img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.portfolio {
+  padding: 0 50px;
+}
+.portfolio hr {
+  margin-bottom: 40px;
+}
+.works {
+  text-align: center;
+}

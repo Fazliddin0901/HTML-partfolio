@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  margin: 50px auto;
+}
+.left {
+  color: white;
+  background-image: url(img/background.jpeg);
+  width: 25%;
+  height: 700px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+img {
+  width: 20px;
+}
+.in {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 20%;
+  border-bottom: 1px ridge black;
+}
+.name {
+  display: flex;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+h5 {
+  margin-left: 20px;
+}
+.email {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.phone {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.mapp {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.social {
+  display: flex;
+  gap: 20px;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.facebok {
+  width: 15px;
+}
+.youtobe {
+  width: 30px;
+}
+.right {
+  width: 55%;
+  height: 660px;
+  margin-top: 120px;
+  box-shadow: 0px 3px 10px grey;
+}
+.br {
+  margin-left: 50px;
+}
+.contact {
+  margin-top: 70px;
+}
+.hr {
+  width: 680px;
+  margin-top: 10px;
+  color: gray;
+}
+.right input {
+  width: 640px;
+  height: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-bottom: solid 1px;
+}
+.full {
+  margin-top: 20px;
+}
+.textarea {
+  width: 640px;
+  height: 70px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-bottom: solid 1px;
+}
+.submit {
+  width: 683px;
+  height: 70px;
+  font-size: 26px;
+  margin-top: 40px;
+  color: white;
+  background-color: rgb(9, 65, 187);
+  border: none;
+  border-radius: 10px;
+}

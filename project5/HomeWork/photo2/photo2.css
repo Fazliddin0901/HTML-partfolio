@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(178, 200, 179);
+}
+.container {
+  width: 80%;
+  height: 650px;
+  background-color: rgb(56, 50, 50);
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+.left-side {
+  width: 50%;
+  display: inline-block;
+  margin: 120px 40px;
+}
+.form-block {
+  display: inline-block;
+}
+.image-login {
+  width: 500px;
+}
+.email {
+  width: 180px;
+  height: 40px;
+}

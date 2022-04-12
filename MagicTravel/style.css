@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(61, 61, 61);
+  width: 100%;
+
+  padding: 25px 0;
+}
+.nav_div {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 0 150px;
+}
+.logo h3 {
+  font-size: 24px;
+}
+.logo {
+  color: white;
+}
+.logo span {
+  color: rgb(255, 208, 0);
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px;
+  font-size: 20px;
+}

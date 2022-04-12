@@ -1,0 +1,92 @@
+body {
+  position: relative;
+}
+#Send {
+  position: absolute;
+  left: 230px;
+  background-color: rgb(59, 56, 56);
+  color: aliceblue;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  top: 400px;
+}
+#h1 {
+  position: absolute;
+  left: 380px;
+  color: rgb(65, 66, 66);
+  font-style: normal;
+}
+#Lorem {
+  position: absolute;
+  width: 50%;
+  top: 50px;
+  left: 380px;
+}
+#hr {
+  position: relative;
+  width: 680px;
+  top: 110px;
+  left: 8px;
+}
+#form {
+  position: absolute;
+  top: 150px;
+  left: 380px;
+}
+#Name {
+  position: absolute;
+  left: 350px;
+  width: 330px;
+  height: 30px;
+}
+#Last {
+  position: absolute;
+  width: 330px;
+  height: 30px;
+}
+#email {
+  position: absolute;
+
+  width: 330px;
+  height: 30px;
+  top: 90px;
+}
+#idemail {
+  position: absolute;
+  top: 65px;
+}
+#number {
+  position: absolute;
+  width: 330px;
+  height: 30px;
+  left: 350px;
+  top: 90px;
+}
+#phone {
+  position: absolute;
+  top: 65px;
+  left: 350px;
+}
+#massage {
+  width: 150px;
+
+  position: absolute;
+  top: 140px;
+}
+#request {
+  position: absolute;
+  top: 165px;
+  width: 340px;
+  height: 40px;
+}
+#assage {
+  position: absolute;
+  top: 215px;
+}
+#textarea {
+  position: absolute;
+  top: 245px;
+  width: 680px;
+  height: 100px;
+}

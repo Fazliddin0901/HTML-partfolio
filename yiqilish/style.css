@@ -1,0 +1,55 @@
+/* h1 {
+  border: 10px solid rgb(180, 30, 210);
+  color: rgb(8, 17, 151);
+  text-align: center;
+}
+h2 {
+  font-size: 15px;
+  color: blueviolet;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h4 {
+  text-align: center;
+}
+h5 {
+  font-style: italic;
+}
+h6 {
+  text-transform: uppercase;
+}
+p {
+  color: #145442;
+}
+ol li:nth-child(3) {
+  color: rgb(30, 210, 30);
+}
+h5:nth-child(4) {
+  color: darkblue;
+} */
+nav p:nth-child(3) {
+  color: rgb(246, 0, 33);
+}
+h1 {
+  cursor: help;
+}
+button:hover {
+  color: darkorange;
+  background-color: darkviolet;
+  padding: 10px;
+}
+button:active {
+  color: hotpink;
+}
+
+.salom {
+  color: white;
+  background-image: url(./tuit.jpeg);
+  height: 700px;
+  border: solid 1px yellow;
+}
+
+.edd {
+  border: solid 1px red;
+}

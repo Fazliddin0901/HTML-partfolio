@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  background-color: rgb(44, 41, 41);
+  color: white;
+  padding: 5px 150px;
+}
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+h1 {
+  color: yellowgreen;
+  font-size: 36px;
+}
+.cart {
+  display: flex;
+}
+.search {
+  display: flex;
+}
+.search input {
+  width: 400px;
+  height: 30px;
+  border: none;
+}
+.search img {
+  height: 30px;
+  background-color: red;
+}
+.cart img {
+  background-color: white;
+  margin-right: 15px;
+}
+.nitta {
+  color: red;
+}
+.navbar2 {
+  padding: 5px;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar2 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  padding: 1px;
+  margin: 0 5px;
+  border-radius: 2px;
+}
+.chetki_menyu a:last-child {
+  background-color: red;
+  color: white;
+}
+.section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 20px 150px;
+  gap: 20px;
+}
+.banner {
+  width: 100%;
+}
+select {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+section option {
+  padding: 5px 0;
+}
+.dairy {
+  background-image: url(img/bread_egg.jpg);
+  width: 50%;
+  background-size: cover;
+  height: 200px;
+}
+.organic {
+  background-image: url(img/organic.jpeg);
+  width: 50%;
+  background-size: cover;
+  height: 200px;
+}
+.diary_organic h4 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin: 50px 0 0 20px;
+}
+.diary_organic {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,39 @@
+.box {
+  color: white;
+  line-height: 100px;
+  text-align: center;
+}
+header {
+  height: 100px;
+  font-size: 20px;
+  background-color: tomato;
+}
+nav {
+  margin-top: 1px;
+  background-color: rgb(9, 4, 68);
+  font-size: 18px;
+  height: 100px;
+}
+section {
+  background-color: black;
+  font-size: 18px;
+  height: 500px;
+  margin-top: 1px;
+  width: 70%;
+  float: left;
+}
+aside {
+  height: 500px;
+  margin-top: 1px;
+  line-height: 500px;
+  width: 30%;
+  background-color: yellowgreen;
+  float: left;
+}
+footer {
+  background-color: black;
+  margin-top: 1px;
+  line-height: 100px;
+  float: left;
+  width: 100%;
+}
